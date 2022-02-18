@@ -31,13 +31,15 @@ class ViewController: UIViewController {
     }
 
     @IBAction func tapCodePushButton(_ sender: UIButton) {
-        guard let viewController = self.storyboard?.instantiateViewController(withIdentifier: "CodePushViewController") else { return }
+        guard let viewController = self.storyboard?.instantiateViewController(withIdentifier: "CodePushViewController") as? CodePushViewController else { return }
+        viewController.name = "Junsu"
         self.navigationController?.pushViewController(viewController, animated: true)
     }
     
     @IBAction func tabCodePresentButton(_ sender: UIButton) {
-        guard let viewController = self.storyboard?.instantiateViewController(withIdentifier: "CodePresentViewController") else { return }
+        guard let viewController = self.storyboard?.instantiateViewController(withIdentifier: "CodePresentViewController") as? CodePresentViewController else { return }
         viewController.modalPresentationStyle = .fullScreen
+        viewController.name = "Junsu"
         self.present(viewController, animated: true, completion: nil)
     }
     
