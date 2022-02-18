@@ -14,6 +14,9 @@
 		8B11DEAE27BF3CAC004ED554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B11DEAD27BF3CAC004ED554 /* Assets.xcassets */; };
 		8B11DEB127BF3CAC004ED554 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B11DEAF27BF3CAC004ED554 /* LaunchScreen.storyboard */; };
 		8B11DEB927BF621D004ED554 /* SeguePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B11DEB827BF621D004ED554 /* SeguePushViewController.swift */; };
+		8B11DEBB27BF64DA004ED554 /* SeguePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B11DEBA27BF64DA004ED554 /* SeguePresentViewController.swift */; };
+		8B11DEBD27BF6935004ED554 /* CodePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B11DEBC27BF6935004ED554 /* CodePushViewController.swift */; };
+		8B11DEBF27BF6B19004ED554 /* CodePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B11DEBE27BF6B19004ED554 /* CodePresentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		8B11DEB027BF3CAC004ED554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B11DEB227BF3CAC004ED554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B11DEB827BF621D004ED554 /* SeguePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeguePushViewController.swift; sourceTree = "<group>"; };
+		8B11DEBA27BF64DA004ED554 /* SeguePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeguePresentViewController.swift; sourceTree = "<group>"; };
+		8B11DEBC27BF6935004ED554 /* CodePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePushViewController.swift; sourceTree = "<group>"; };
+		8B11DEBE27BF6B19004ED554 /* CodePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePresentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				8B11DEAF27BF3CAC004ED554 /* LaunchScreen.storyboard */,
 				8B11DEB227BF3CAC004ED554 /* Info.plist */,
 				8B11DEB827BF621D004ED554 /* SeguePushViewController.swift */,
+				8B11DEBA27BF64DA004ED554 /* SeguePresentViewController.swift */,
+				8B11DEBC27BF6935004ED554 /* CodePushViewController.swift */,
+				8B11DEBE27BF6B19004ED554 /* CodePresentViewController.swift */,
 			);
 			path = ScreenTransitionExample;
 			sourceTree = "<group>";
@@ -142,8 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B11DEB927BF621D004ED554 /* SeguePushViewController.swift in Sources */,
+				8B11DEBD27BF6935004ED554 /* CodePushViewController.swift in Sources */,
 				8B11DEA927BF3CAB004ED554 /* ViewController.swift in Sources */,
 				8B11DEA527BF3CAB004ED554 /* AppDelegate.swift in Sources */,
+				8B11DEBF27BF6B19004ED554 /* CodePresentViewController.swift in Sources */,
+				8B11DEBB27BF64DA004ED554 /* SeguePresentViewController.swift in Sources */,
 				8B11DEA727BF3CAB004ED554 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
