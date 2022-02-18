@@ -7,7 +7,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, SendDataDelegate {
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,8 +43,19 @@ class ViewController: UIViewController {
         guard let viewController = self.storyboard?.instantiateViewController(withIdentifier: "CodePresentViewController") as? CodePresentViewController else { return }
         viewController.modalPresentationStyle = .fullScreen
         viewController.name = "Junsu"
+        viewController.delegate = self
         self.present(viewController, animated: true, completion: nil)
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let viewController = segue.destination as? SeguePushViewController {
+            viewController.name = "Last Junsu"
+        }
+    }
+    
+    func sendData(name: String) {
+        self.nameLabel.text = name
+        self.nameLabel.sizeToFit()
+    }
 }
 
