@@ -18,6 +18,7 @@
 		8B2CC1A827C4724F00A8053C /* DiaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CC1A727C4724F00A8053C /* DiaryCell.swift */; };
 		8B52BB9427C502EF005412C7 /* WriteDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B52BB9327C502EF005412C7 /* WriteDiaryViewController.swift */; };
 		8B52BB9627C503BA005412C7 /* DiaryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B52BB9527C503BA005412C7 /* DiaryDetailViewController.swift */; };
+		8B52BB9827C52539005412C7 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B52BB9727C52539005412C7 /* Diary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		8B2CC1A727C4724F00A8053C /* DiaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryCell.swift; sourceTree = "<group>"; };
 		8B52BB9327C502EF005412C7 /* WriteDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteDiaryViewController.swift; sourceTree = "<group>"; };
 		8B52BB9527C503BA005412C7 /* DiaryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryDetailViewController.swift; sourceTree = "<group>"; };
+		8B52BB9727C52539005412C7 /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				8B2779AD27C5009A0003B5C8 /* StarCell.swift */,
 				8B52BB9327C502EF005412C7 /* WriteDiaryViewController.swift */,
 				8B52BB9527C503BA005412C7 /* DiaryDetailViewController.swift */,
+				8B52BB9727C52539005412C7 /* Diary.swift */,
 			);
 			path = Diary;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				8B2779AE27C5009A0003B5C8 /* StarCell.swift in Sources */,
 				8B24B36C27C3BB21008753E9 /* AppDelegate.swift in Sources */,
 				8B24B36E27C3BB21008753E9 /* SceneDelegate.swift in Sources */,
+				8B52BB9827C52539005412C7 /* Diary.swift in Sources */,
 				8B52BB9627C503BA005412C7 /* DiaryDetailViewController.swift in Sources */,
 				8B2CC1A827C4724F00A8053C /* DiaryCell.swift in Sources */,
 				8B2779AC27C4FFA10003B5C8 /* StarViewController.swift in Sources */,
