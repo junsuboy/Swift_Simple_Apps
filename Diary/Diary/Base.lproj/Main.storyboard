@@ -38,7 +38,7 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="YaT-cJ-9ew">
-                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="itemSize" width="180" height="200"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -75,6 +75,10 @@
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="180" height="200"/>
+                                        <connections>
+                                            <outlet property="dateLabel" destination="Pnv-TL-r0t" id="oSM-VH-dGZ"/>
+                                            <outlet property="titleLabel" destination="wdQ-ty-lWD" id="7xt-kt-2lK"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
@@ -95,10 +99,13 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="collectionView" destination="89t-p2-nmw" id="cxj-Qx-Fxx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="600" y="-543.08035714285711"/>
+            <point key="canvasLocation" x="598.55072463768124" y="-543.08035714285711"/>
         </scene>
         <!--Item-->
         <scene sceneID="hL7-f3-ZTF">
@@ -229,16 +236,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0AY-wb-b4b">
-                                <rect key="frame" x="24" y="236" width="366" height="100"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="h1D-aU-fRS"/>
-                                </constraints>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="날짜" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YCz-Od-nnq">
                                 <rect key="frame" x="24" y="360" width="366" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
@@ -250,6 +247,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0AY-wb-b4b">
+                                <rect key="frame" x="20" y="232" width="366" height="100"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="h1D-aU-fRS"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="o0Y-o8-z0s"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -275,8 +282,18 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Juj-3Z-tUD">
-                        <barButtonItem key="rightBarButtonItem" title="등록" id="Sko-He-dTo"/>
+                        <barButtonItem key="rightBarButtonItem" title="등록" id="Sko-He-dTo">
+                            <connections>
+                                <action selector="tapConfirmButton:" destination="Ju4-0E-AoV" id="gWw-an-udO"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="confirmButton" destination="Sko-He-dTo" id="32c-MQ-byz"/>
+                        <outlet property="contentsTextView" destination="0AY-wb-b4b" id="gbv-aJ-liW"/>
+                        <outlet property="dateTextField" destination="6Zl-Ci-efP" id="gLA-gv-iMo"/>
+                        <outlet property="titleTextField" destination="C0e-ci-XNY" id="Sko-tM-YIf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6mI-cj-nmI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
