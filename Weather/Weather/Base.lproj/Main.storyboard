@@ -97,8 +97,10 @@
                         <outlet property="WeatherDescriptionLabel" destination="GAm-cs-A47" id="Opx-67-O1e"/>
                         <outlet property="cityNameLabel" destination="aWJ-Am-GB5" id="Ppt-FH-zBg"/>
                         <outlet property="cityNameTextField" destination="afg-ff-BFS" id="TLF-ys-9oe"/>
+                        <outlet property="maxTempLabel" destination="1aX-Da-IIH" id="y4o-Co-nNk"/>
                         <outlet property="minTempLabel" destination="B2W-h6-NJL" id="Eeb-AX-lCs"/>
                         <outlet property="tempLabel" destination="20I-Ac-54Q" id="a18-0g-2RY"/>
+                        <outlet property="weatherStackView" destination="qK6-Jj-4LD" id="vOg-L0-acs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
