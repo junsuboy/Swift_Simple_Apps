@@ -13,6 +13,7 @@
 		8B6D329A27F97FB000F4410C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B6D329827F97FB000F4410C /* Main.storyboard */; };
 		8B6D329C27F97FB100F4410C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B6D329B27F97FB100F4410C /* Assets.xcassets */; };
 		8B6D329F27F97FB100F4410C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B6D329D27F97FB100F4410C /* LaunchScreen.storyboard */; };
+		8B6D32A727F987E200F4410C /* CovidDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6D32A627F987E200F4410C /* CovidDetailViewController.swift */; };
 		BD2E5682B1A3D217312911B2 /* Pods_COVID19.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 466ECE78ED4A9727BFE00013 /* Pods_COVID19.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		8B6D329B27F97FB100F4410C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B6D329E27F97FB100F4410C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B6D32A027F97FB100F4410C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B6D32A627F987E200F4410C /* CovidDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,6 @@
 				85BF892ECF08D1F5E816ED04 /* Pods-COVID19.debug.xcconfig */,
 				4FE7D2ADB35A324CA8756D0B /* Pods-COVID19.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -80,6 +81,7 @@
 				8B6D329B27F97FB100F4410C /* Assets.xcassets */,
 				8B6D329D27F97FB100F4410C /* LaunchScreen.storyboard */,
 				8B6D32A027F97FB100F4410C /* Info.plist */,
+				8B6D32A627F987E200F4410C /* CovidDetailViewController.swift */,
 			);
 			path = COVID19;
 			sourceTree = "<group>";
@@ -208,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B6D329727F97FB000F4410C /* ViewController.swift in Sources */,
+				8B6D32A727F987E200F4410C /* CovidDetailViewController.swift in Sources */,
 				8B6D329327F97FB000F4410C /* AppDelegate.swift in Sources */,
 				8B6D329527F97FB000F4410C /* SceneDelegate.swift in Sources */,
 			);
