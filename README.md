@@ -51,6 +51,8 @@
 - IBInspectable
 
 ## 동작화면
+![Apr-04-2022 23-59-21](https://user-images.githubusercontent.com/86935775/161572642-c762fec0-e1d9-4d6f-bc0b-e3748e08afec.gif)
+
 
 # TodoList - 할 일 목록 어플리케이션
 
@@ -68,6 +70,8 @@
 - UserDefaults
 
 ## 동작화면
+![Apr-05-2022 00-03-45](https://user-images.githubusercontent.com/86935775/161573391-f73c921e-e4a0-4b9e-8770-31eaf1cb3f45.gif)
+
 
 # Diary - 일기장 어플리케이션
 
@@ -84,6 +88,9 @@
 - NoficifationCenter
 
 ## 동작화면
+![Apr-05-2022 00-07-48](https://user-images.githubusercontent.com/86935775/161574255-9e703c2d-24ed-4a3e-b999-dad8ea1e4d22.gif)
+![Apr-05-2022 00-07-59](https://user-images.githubusercontent.com/86935775/161574291-02753696-8df6-449e-ba6a-56f54974b763.gif)
+
 
 # pomodoroTimerApp - 뽀모도로 기법을 활용한 타이머 어플리케이션
 
@@ -100,6 +107,10 @@
 - UIView Animation
 
 ## 동작화면
+![Apr-05-2022 00-10-29](https://user-images.githubusercontent.com/86935775/161574848-2bc3078e-0a5f-414c-a3b1-8d1c8a025157.gif)
+![Apr-05-2022 00-10-38](https://user-images.githubusercontent.com/86935775/161574855-7b54a084-4f37-467f-9547-8e64d6aee15f.gif)
+![Apr-05-2022 00-10-46](https://user-images.githubusercontent.com/86935775/161574861-0c680e7a-afea-41ce-ae5d-74ac37e2e49e.gif)
+
 
 # Weather - 입력한 도시의 날씨정보를 받아와 화면에 표시하는 어플리케이션
 
@@ -114,6 +125,8 @@
 - URLSession
 
 ## 동작화면
+![Apr-05-2022 00-13-19](https://user-images.githubusercontent.com/86935775/161575261-204f9eef-5d3b-47b1-96bb-07557c422c7b.gif)
+
 
 # COVID19 - 대한민국 코로나 확진자 수 표시 어플리케이션
 
@@ -128,3 +141,4 @@
 - Cocoapods
 
 ## 동작화면
+![Apr-05-2022 00-14-45](https://user-images.githubusercontent.com/86935775/161575554-161b1155-f189-4ed0-92ab-e2d4fd59acad.gif)
